@@ -3,6 +3,8 @@
 
 BaseZXQTask一个类搞定，目前仅支持GET、POST但不包含Https请求,而且向后台传输的数据格式是JSON形式，若是GET，Url地址还需自己拼接，后面会逐步完善。
 
+在HttpZXQClient的moudle中我放入一个HttpsPost的类，使用的是Https方式请求，这里仅供参考
+
 ##### 初始化
 ```java
    BaseZXQTask.Builder builder = new BaseZXQTask.Builder(this);
